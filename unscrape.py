@@ -9,7 +9,11 @@ from io import BytesIO
 # Get geckodriver and add to your project folder:
 # https://github.com/mozilla/geckodriver/releases/latest
 
-url = "https://unsplash.com/search/photos/" + sys.argv[1] if len(sys.argv) > 1 else "https://unsplash.com"
+# If you are using this script to scrape Unsplash, please see the Terms & Conditions - https://unsplash.com/terms
+# This script was meant as a tutorial/learning project and should only be used as an example
+# Therefore, I have altered the website's URLs in this script, use responsibly.
+
+url = "https://some-website-with-photos.com/search/photos/" + sys.argv[1] if len(sys.argv) > 1 else "https://some-website-with-photos.com"
 result_folder = "./images-" + sys.argv[1] + "/" if len(sys.argv) > 1 else "./images/"
 scroll = (int(sys.argv[2]) if sys.argv[2].isdigit() else 1000) if len(sys.argv) > 2 else 1000
 selector = "#gridMulti img"
