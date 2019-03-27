@@ -1,5 +1,7 @@
 # unscrape
-A simple image scraper for [Unsplash](https://unsplash.com/).
+A simple image scraper ~~for [Unsplash](https://unsplash.com/)~~, meant only as a tutorial/learning opportunity.
+
+**Please refrain from using this in any real-world scenario, as it is against the [Terms & Conditions](https://unsplash.com/terms) of Unsplash.**
 
 ### Usage
 
